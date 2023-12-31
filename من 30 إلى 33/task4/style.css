@@ -1,0 +1,33 @@
+table{
+    width: 700px;
+    height: 700px;
+    border-spacing: 1px;
+    position: absolute;
+    right: 30%;
+    border-bottom: 1px solid green;
+}
+thead{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+tbody{
+    background-color: #EEE;
+    padding: 10px;
+    text-align: center;
+}
+.view{
+    background-color: blue;
+    color: white;
+    float: left;
+    margin-left: 5px;
+    width: calc((100% - 15px) / 2);
+}
+.delete{
+    background-color: red;
+    color: white;
+    float: left;
+    margin-left: 5px;
+    width: calc((100% - 15px) / 2);
+}

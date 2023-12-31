@@ -1,0 +1,21 @@
+div{
+    background-color: #EEE;
+    position: relative;
+    right: -50%;
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    counter-increment: member-count;
+}
+div::before{
+    content: counter(member-count);
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+}

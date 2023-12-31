@@ -1,0 +1,21 @@
+.parent{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #EEE;
+    text-align: center;
+    transition: all .5s ease;
+}
+.parent:hover{
+    margin-top: 30px;
+}
+.child{
+    padding: 20px;
+    background-color: #ccc;
+    text-align: center;
+    transition: all 1s linear .5s;
+}
+.parent:hover .child{
+    margin-top: 30px;
+}

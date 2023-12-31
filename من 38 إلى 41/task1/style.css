@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    border: 5px solid black;
+    border-radius: 50%;
+    float: left;
+    margin: 50px;
+    counter-increment: number;
+    box-shadow: 10px 5px 0 0px blue, -10px -5px 0px red;
+}
+div::before{
+    content: "Element";
+    position: relative;
+    right: -25px;
+    bottom: -40px;
+}
+div::after{
+    content: counter(number);
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    right: 15px;
+    bottom: 10px;
+}

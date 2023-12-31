@@ -1,0 +1,16 @@
+div{
+    width: 400px;
+    margin: 10px auto;
+    background-color: #eee !important;
+    color: black !important;
+    font-size: 20px !important;
+    border: none !important;
+    position: relative;
+    text-indent: -2000px;
+}
+div::before{
+    content: "Elzero";
+    position: absolute;
+    text-indent: 0;
+    left: 190px;
+}

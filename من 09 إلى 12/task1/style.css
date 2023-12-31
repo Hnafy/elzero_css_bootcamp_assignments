@@ -1,0 +1,19 @@
+div{
+    display: inline-block;
+    background-color: #EEE;
+}
+.shape1{
+    border: 5px solid red;
+}
+.shape2{
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+}
+.shape3{
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed blue;
+    border-right: 5px dashed green;
+    border-left: 5px dashed yellow;
+}

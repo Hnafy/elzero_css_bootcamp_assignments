@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    width: 400px;
+    padding: 10px;
+    background-color: #EEE;
+    position: relative;
+}
+/* p::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: crimson;
+} */
+/* p::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -10px;
+    width: 0px;
+    height: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent crimson transparent transparent;
+} */
+/* p::before{
+    content: attr(data-person);
+    background-color: #EEE;
+    position: absolute;
+    left: -100px;
+    width: 60px;
+    top: 0px;
+    padding: 10px;
+} */

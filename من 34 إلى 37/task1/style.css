@@ -1,0 +1,12 @@
+div{
+    width: 300px;
+    height: 60px;
+    background-color: #EEE;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+:empty{
+    background-color: red;
+}

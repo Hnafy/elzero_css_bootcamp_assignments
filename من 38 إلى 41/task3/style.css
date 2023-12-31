@@ -1,0 +1,60 @@
+.main{
+    width: 550px;
+    margin: auto;
+}
+.basic{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: #EEE;
+    float: left;
+}
+.pro::before{
+    content: "";
+    border: 1px solid blue;
+    height: 250px;
+    float: left;
+    position: relative;
+    left: -25px;
+}
+.pro::after{
+    content: "Or";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    float: left;
+    position: relative;
+    left: -40px;
+    top: -75px;
+}
+.pro{
+    width: 250px;
+    text-align: center;
+    background-color: #EEE;
+    height: 250px;
+    float: right;
+}
+.topic{
+    position: relative;
+    top: 20px;
+    right: -20px;
+    width: 200px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+.price{
+    position: relative;
+    top: 50px;
+    right: -45px;
+    width: 150px;
+    height: 150px;
+    margin: 0 75px;
+    background-color: #d2d0d0;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}

@@ -1,0 +1,53 @@
+div{
+    width: 400px;
+    height: 75px;
+    background-color: #EEE;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid red;
+    border-right: 3px solid blue;
+    border-bottom: 3px solid red;
+    border-left: 3px solid blue;
+}
+.top-left{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-right: 3px solid red;
+}
+.bottom-left{
+    position: absolute;
+    top: 80px;
+    left: -10px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-right: 3px solid red;
+}
+.top-right{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-left: 3px solid red;
+}
+.bottom-right{
+    position: absolute;
+    top: 80px;
+    right: -10px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-left: 3px solid red;
+}

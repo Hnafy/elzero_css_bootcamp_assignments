@@ -1,0 +1,3 @@
+:not(.parent) > div[title]:not(.no-need){
+    color: red;
+}

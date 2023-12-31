@@ -1,0 +1,134 @@
+:root{
+    --main-color: #323234;
+}
+.container{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container .e-letter{
+    display: grid;
+    width: calc(50% - 10px);
+    height: 100%;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(5 , 1fr);
+}
+.box-e1{
+    background-color: var(--main-color);
+    grid-column: 1 / 4;
+}
+.box-e2{
+    background-color: var(--main-color);
+    grid-row: 2 / 4;
+}
+.box-e3{
+    grid-column: 2 / 4;
+}
+.box-e4{
+    background-color: var(--main-color);
+    grid-column: 2 / 4;
+}
+.box-e5{
+    background-color: var(--main-color);
+    grid-row: 4 / 6;
+}
+.box-e6{
+    grid-column: 2 / 4;
+}
+.box-e7{
+    background-color: var(--main-color);
+    grid-column: 2 / 4;
+}
+.e-letter::before{
+    content: "";
+    position: absolute;
+    right: 330px;
+    top: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #FEA604;
+    animation-name: move-e;
+    animation-duration: 5s;
+}
+@keyframes move-e{
+    10%{
+        transform: translate(-190px , 0);
+    }
+    20%{
+        transform: translate(-190px , 200px);
+    }
+    30%{
+        transform: translate(0 , 200px);
+    }
+    40%{
+        transform: translate(-190px , 200px);
+    }
+    50%{
+        transform: translate(-190px , 400px);
+    }
+    60%{
+        transform: translate(0 , 400px);
+    }
+    70%{
+        transform: translate(-190px , 400px);
+    }
+    90%{
+        transform: translate(-190px , 0);
+    }
+}
+.container .l-letter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: grid;
+    width: calc(50% - 10px);
+    height: 100%;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(5 , 1fr);
+}
+.box-l1{
+    background-color: var(--main-color);
+    grid-row: 1 / 5;
+}
+.box-l2{
+    grid-row: 1 / 5;
+    grid-column: 2 / 4;
+}
+.box-l3{
+    background-color: var(--main-color);
+    grid-column: 1 / 5;
+}
+.l-letter::before{
+    content: "";
+    position: absolute;
+    right: 30px;
+    top: 426px;
+    width: 50px;
+    height: 50px;
+    background-color: #FEA604;
+    animation-name: move-l;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    opacity: 0;
+}
+@keyframes move-l{
+    25%{
+        transform: translate(-190px , 0);
+        opacity: 1;
+    }
+    50%{
+        transform: translate(-190px , -400px);
+        opacity: 1;
+    }
+    75%{
+        transform: translate(-190px , -400px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(-190px , -400px);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,40 @@
+.parent{
+    width: 400px;
+    padding: 0;
+    height: 300px;
+}
+.html{
+    background-color: #EEE;
+    list-style-type: decimal;
+    margin: 3px;
+    padding: 20px;
+}
+.items-html{
+    background-color: white;
+    width: 300px;
+    padding: 3px;
+    margin: 3px;
+}
+.css{
+    background-color: #EEE;
+    list-style-type: upper-roman;
+    margin: 3px;
+    padding: 20px;
+}
+.items-css{
+    background-color: white;
+    width: 300px;
+    padding: 3px;
+    margin: 3px;
+}
+.js{
+    background-color: #EEE;
+    margin: 3px;
+    padding: 20px;
+}
+.items-js{
+    list-style-type: circle;
+    list-style-position: inside;
+    background-color: white;
+    width: 300px;
+}
